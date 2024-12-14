@@ -1,9 +1,21 @@
 # University Application
 
+## Table of Contents
+1. [Project Description](#project-description)
+2. [Features](#features)
+   - [Course Management](#course-management)
+   - [Student Registration and Login](#student-registration-and-login)
+   - [Course Selection](#course-selection)
+   - [Course Allocation and Waitlist Management](#course-allocation-and-waitlist-management)
+   - [Course Dropping](#course-dropping)
+   - [Rankings and Display](#rankings-and-display)
+   - [File Management](#file-management)
+3. [To Run the Code](#to-run-the-code)
+4. [Acknowledgements](#acknowledgements)
 
+---
 
 ## Project Description
-
 The University Application is designed to facilitate the management of student data and course enrollment in a university setting. It allows students to register, log in, select and drop courses, and view their rankings within each course. The system ensures that course allocations are managed efficiently, including handling waitlists for full courses.
 
 ## Features
@@ -25,7 +37,7 @@ The University Application is designed to facilitate the management of student d
 ### Course Allocation and Waitlist Management
 - **Allocate courses**: Allocate courses to students based on availability.
 - **Manage waitlists**: Automatically allocate courses to waitlisted students as slots become available.
-- **Rank students**: Rank students within each course based on CGPA and number of projects and and participation in other clubs.
+- **Rank students**: Rank students within each course based on CGPA and number of projects and participation in other clubs.
 
 ### Course Dropping
 - **Drop courses**: Students can drop previously selected courses.
@@ -34,7 +46,7 @@ The University Application is designed to facilitate the management of student d
 
 ### Rankings and Display
 - **View rankings**: Students can view their rankings in their enrolled courses.
-- **Ranking criteria**: Rankings are based on CGPA and number of projects and and participation in other clubs.
+- **Ranking criteria**: Rankings are based on CGPA and number of projects and participation in other clubs.
 
 ### File Management
 - **Data storage**: Store and update course data, student data, and waitlists in respective files.
@@ -47,16 +59,15 @@ The University Application is designed to facilitate the management of student d
   - **Initialization**: Load courses, students, and waitlists from files into memory.
   - **Periodic updates**: Reflect changes such as course enrollments, drops, and waitlist updates in the respective files.
 
+## To Run the Code
 
+To run this project, follow these steps:
 
-
-## To run the code
-
-To run this project 
+1. Compile the C program using the `gcc` compiler:
 
 ```bash
-  gcc  filename.c
-  ./a.out
+gcc filename.c
+./a.out
 ```
 # Acknowledgements
 
